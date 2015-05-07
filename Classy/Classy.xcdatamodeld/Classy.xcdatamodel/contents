@@ -1,4 +1,21 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<model name="Test1.xcdatamodel" userDefinedModelVersionIdentifier="" type="com.apple.IDECoreDataModeler.DataModel" documentVersion="1.0" lastSavedToolsVersion="1" systemVersion="11A491" minimumToolsVersion="Automatic" macOSVersion="Automatic" iOSVersion="Automatic">
-    <elements/>
+<model userDefinedModelVersionIdentifier="" type="com.apple.IDECoreDataModeler.DataModel" documentVersion="1.0" lastSavedToolsVersion="7549" systemVersion="14D136" minimumToolsVersion="Automatic" macOSVersion="Automatic" iOSVersion="Automatic">
+    <entity name="Assignment" representedClassName="Classy.Assignment" syncable="YES">
+        <attribute name="assignmentComplete" attributeType="Boolean" defaultValueString="NO" syncable="YES"/>
+        <attribute name="assignmentDescription" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="assignmentName" attributeType="String" syncable="YES"/>
+        <attribute name="dueDate" attributeType="Date" syncable="YES"/>
+        <relationship name="relatedCourse" optional="YES" maxCount="1" deletionRule="Nullify" destinationEntity="Course" inverseName="homeworkAndExams" inverseEntity="Course" syncable="YES"/>
+    </entity>
+    <entity name="Course" representedClassName="Classy.Course" syncable="YES">
+        <attribute name="courseName" attributeType="String" syncable="YES"/>
+        <attribute name="daysMeeting" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="professorName" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="timeMeeting" optional="YES" attributeType="String" syncable="YES"/>
+        <relationship name="homeworkAndExams" optional="YES" toMany="YES" deletionRule="Nullify" ordered="YES" destinationEntity="Assignment" inverseName="relatedCourse" inverseEntity="Assignment" syncable="YES"/>
+    </entity>
+    <elements>
+        <element name="Assignment" positionX="7" positionY="-22" width="128" height="120"/>
+        <element name="Course" positionX="-344" positionY="6" width="128" height="120"/>
+    </elements>
 </model>

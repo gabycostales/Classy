@@ -2,8 +2,8 @@
 //  AppDelegate.swift
 //  Classy
 //
-//  Created by Alex Lal on 5/5/15.
-//  Copyright (c) 2015 Alex Lal. All rights reserved.
+//  Created by Gabriela Costales on 5/5/15.
+//  Copyright (c) 2015 Gabriela Costales. All rights reserved.
 //
 
 import UIKit

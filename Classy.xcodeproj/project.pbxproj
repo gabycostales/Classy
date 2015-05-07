@@ -3,17 +3,28 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 46;
+	objectVersion = 47;
 	objects = {
 
 /* Begin PBXBuildFile section */
+		0E19117E1AFA22AD00392B3D /* Course.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0E19117D1AFA22AC00392B3D /* Course.swift */; };
+		0E1911801AFA22AD00392B3D /* Assignment.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0E19117F1AFA22AD00392B3D /* Assignment.swift */; };
+		0E611ABB1AFA4759001FD775 /* ToDoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0E611ABA1AFA4759001FD775 /* ToDoViewController.swift */; };
+		0E84A7131AFA88CE0075C82F /* CourseDescViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0E84A7121AFA88CE0075C82F /* CourseDescViewController.swift */; };
 		524030DA1AF9894B00B5C167 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 524030D91AF9894B00B5C167 /* AppDelegate.swift */; };
 		524030DD1AF9894B00B5C167 /* Classy.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 524030DB1AF9894B00B5C167 /* Classy.xcdatamodeld */; };
-		524030DF1AF9894B00B5C167 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 524030DE1AF9894B00B5C167 /* ViewController.swift */; };
 		524030E21AF9894B00B5C167 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 524030E01AF9894B00B5C167 /* Main.storyboard */; };
 		524030E41AF9894B00B5C167 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 524030E31AF9894B00B5C167 /* Images.xcassets */; };
 		524030E71AF9894B00B5C167 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 524030E51AF9894B00B5C167 /* LaunchScreen.xib */; };
 		524030F31AF9894B00B5C167 /* ClassyTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 524030F21AF9894B00B5C167 /* ClassyTests.swift */; };
+		524031011AF9B92A00B5C167 /* CourseTabViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 524031001AF9B92A00B5C167 /* CourseTabViewController.swift */; };
+		5252E72D1AF9F02500784D87 /* InitialSettingsController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5252E72C1AF9F02500784D87 /* InitialSettingsController.swift */; };
+		5252E72F1AF9F05F00784D87 /* AddNewCourseViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5252E72E1AF9F05F00784D87 /* AddNewCourseViewController.swift */; };
+		5252E7311AF9F08100784D87 /* EditCourseInfoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5252E7301AF9F08100784D87 /* EditCourseInfoViewController.swift */; };
+		5252E7331AF9F09200784D87 /* AddNewAssignmentViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5252E7321AF9F09200784D87 /* AddNewAssignmentViewController.swift */; };
+		5252E7371AF9F0D500784D87 /* AllCoursesTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5252E7361AF9F0D500784D87 /* AllCoursesTableViewController.swift */; };
+		5252E73B1AF9F15C00784D87 /* CoursePendingTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5252E73A1AF9F15C00784D87 /* CoursePendingTableViewController.swift */; };
+		5252E73D1AF9F17A00784D87 /* CourseCompleteTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5252E73C1AF9F17A00784D87 /* CourseCompleteTableViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -27,17 +38,28 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		0E19117D1AFA22AC00392B3D /* Course.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Course.swift; sourceTree = "<group>"; };
+		0E19117F1AFA22AD00392B3D /* Assignment.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Assignment.swift; sourceTree = "<group>"; };
+		0E611ABA1AFA4759001FD775 /* ToDoViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = ToDoViewController.swift; path = ../ToDoViewController.swift; sourceTree = "<group>"; };
+		0E84A7121AFA88CE0075C82F /* CourseDescViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CourseDescViewController.swift; sourceTree = "<group>"; };
 		524030D41AF9894B00B5C167 /* Classy.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Classy.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		524030D81AF9894B00B5C167 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		524030D91AF9894B00B5C167 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		524030DC1AF9894B00B5C167 /* Classy.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Classy.xcdatamodel; sourceTree = "<group>"; };
-		524030DE1AF9894B00B5C167 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		524030E11AF9894B00B5C167 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		524030E31AF9894B00B5C167 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		524030E61AF9894B00B5C167 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
 		524030EC1AF9894B00B5C167 /* ClassyTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ClassyTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		524030F11AF9894B00B5C167 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		524030F21AF9894B00B5C167 /* ClassyTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ClassyTests.swift; sourceTree = "<group>"; };
+		524031001AF9B92A00B5C167 /* CourseTabViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CourseTabViewController.swift; sourceTree = "<group>"; };
+		5252E72C1AF9F02500784D87 /* InitialSettingsController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = InitialSettingsController.swift; sourceTree = "<group>"; };
+		5252E72E1AF9F05F00784D87 /* AddNewCourseViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AddNewCourseViewController.swift; sourceTree = "<group>"; };
+		5252E7301AF9F08100784D87 /* EditCourseInfoViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EditCourseInfoViewController.swift; sourceTree = "<group>"; };
+		5252E7321AF9F09200784D87 /* AddNewAssignmentViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AddNewAssignmentViewController.swift; sourceTree = "<group>"; };
+		5252E7361AF9F0D500784D87 /* AllCoursesTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AllCoursesTableViewController.swift; sourceTree = "<group>"; };
+		5252E73A1AF9F15C00784D87 /* CoursePendingTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CoursePendingTableViewController.swift; sourceTree = "<group>"; };
+		5252E73C1AF9F17A00784D87 /* CourseCompleteTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CourseCompleteTableViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -61,6 +83,8 @@
 		524030CB1AF9894B00B5C167 = {
 			isa = PBXGroup;
 			children = (
+				0E19117F1AFA22AD00392B3D /* Assignment.swift */,
+				0E19117D1AFA22AC00392B3D /* Course.swift */,
 				524030D61AF9894B00B5C167 /* Classy */,
 				524030EF1AF9894B00B5C167 /* ClassyTests */,
 				524030D51AF9894B00B5C167 /* Products */,
@@ -80,8 +104,17 @@
 			isa = PBXGroup;
 			children = (
 				524030D91AF9894B00B5C167 /* AppDelegate.swift */,
-				524030DE1AF9894B00B5C167 /* ViewController.swift */,
 				524030E01AF9894B00B5C167 /* Main.storyboard */,
+				524031001AF9B92A00B5C167 /* CourseTabViewController.swift */,
+				0E84A7121AFA88CE0075C82F /* CourseDescViewController.swift */,
+				0E611ABA1AFA4759001FD775 /* ToDoViewController.swift */,
+				5252E73A1AF9F15C00784D87 /* CoursePendingTableViewController.swift */,
+				5252E73C1AF9F17A00784D87 /* CourseCompleteTableViewController.swift */,
+				5252E7361AF9F0D500784D87 /* AllCoursesTableViewController.swift */,
+				5252E7301AF9F08100784D87 /* EditCourseInfoViewController.swift */,
+				5252E7321AF9F09200784D87 /* AddNewAssignmentViewController.swift */,
+				5252E72E1AF9F05F00784D87 /* AddNewCourseViewController.swift */,
+				5252E72C1AF9F02500784D87 /* InitialSettingsController.swift */,
 				524030E31AF9894B00B5C167 /* Images.xcassets */,
 				524030E51AF9894B00B5C167 /* LaunchScreen.xib */,
 				524030DB1AF9894B00B5C167 /* Classy.xcdatamodeld */,
@@ -172,7 +205,7 @@
 				};
 			};
 			buildConfigurationList = 524030CF1AF9894B00B5C167 /* Build configuration list for PBXProject "Classy" */;
-			compatibilityVersion = "Xcode 3.2";
+			compatibilityVersion = "Xcode 6.3";
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
 			knownRegions = (
@@ -215,8 +248,19 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				524030DF1AF9894B00B5C167 /* ViewController.swift in Sources */,
+				5252E72D1AF9F02500784D87 /* InitialSettingsController.swift in Sources */,
+				5252E7331AF9F09200784D87 /* AddNewAssignmentViewController.swift in Sources */,
+				5252E7311AF9F08100784D87 /* EditCourseInfoViewController.swift in Sources */,
+				0E1911801AFA22AD00392B3D /* Assignment.swift in Sources */,
+				0E84A7131AFA88CE0075C82F /* CourseDescViewController.swift in Sources */,
 				524030DD1AF9894B00B5C167 /* Classy.xcdatamodeld in Sources */,
+				5252E73B1AF9F15C00784D87 /* CoursePendingTableViewController.swift in Sources */,
+				5252E72F1AF9F05F00784D87 /* AddNewCourseViewController.swift in Sources */,
+				0E611ABB1AFA4759001FD775 /* ToDoViewController.swift in Sources */,
+				5252E73D1AF9F17A00784D87 /* CourseCompleteTableViewController.swift in Sources */,
+				524031011AF9B92A00B5C167 /* CourseTabViewController.swift in Sources */,
+				5252E7371AF9F0D500784D87 /* AllCoursesTableViewController.swift in Sources */,
+				0E19117E1AFA22AD00392B3D /* Course.swift in Sources */,
 				524030DA1AF9894B00B5C167 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -346,9 +390,12 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				INFOPLIST_FILE = Classy/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 			};
 			name = Debug;
 		};
@@ -356,6 +403,8 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				INFOPLIST_FILE = Classy/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -415,6 +464,7 @@
 				524030F81AF9894B00B5C167 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		524030F91AF9894B00B5C167 /* Build configuration list for PBXNativeTarget "ClassyTests" */ = {
 			isa = XCConfigurationList;
@@ -423,6 +473,7 @@
 				524030FB1AF9894B00B5C167 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 
